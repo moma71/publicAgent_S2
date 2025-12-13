@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="구산구 AI 혁명기 시즌 2 - 대진시 편">
+  <meta property="og:description" content="신규 공무원 윤서연과 대진시청의 AI 혁명기. 좌천된 엘리트 강민준의 유산이 대진시에서 꽃피우다.">
+  <title>구산구 AI 혁명기 S2 — Episodes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="common-header"></div>
+  <script src="episodes-common/load-header.js"></script>
+
+  <main class="container">
+    <section class="hero">
+      <div class="video-bg">
+        <!-- Assuming generic video background or reusing existing asset as placeholder -->
+        <video autoplay muted loop playsinline>
+          <source src="episode1/06.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1>구산구 AI 혁명기: 시즌 2</h1>
+        <p>대진시의 새로운 변화, 윤서연의 도전</p>
+        <a class="btn-primary" href="#episodes">정주행 시작하기</a>
+      </div>
+    </section>
+
+    <section id="episodes">
+      <h2 class="section-title">📚 시즌 2 에피소드 (총 10부작)</h2>
+
+      <div class="episode-grid">
+        <!-- Ep 1: 새로운 시작 -->
+        <a class="ep-btn" href="episode1/index.html" style="background-image: url('episode1/01.png')">Episode 1<br><span
+            style="font-size:0.8em">새로운 시작</span></a>
+        
+        <!-- Ep 2: 현실의 벽 -->
+        <a class="ep-btn" href="episode2/index.html" style="background-image: url('episode2/01.png')">Episode 2<br><span
+            style="font-size:0.8em">현실의 벽</span></a>
+        
+        <!-- Ep 3: 첫 돌파구 -->
+        <a class="ep-btn" href="episode3/index.html" style="background-image: url('episode3/01.png')">Episode 3<br><span
+            style="font-size:0.8em">첫 돌파구</span></a>
+        
+        <!-- Ep 4: 중앙정부와의 만남 -->
+        <a class="ep-btn" href="episode4/index.html" style="background-image: url('episode4/01.png')">Episode 4<br><span
+            style="font-size:0.8em">중앙정부와의 만남</span></a>
+        
+        <!-- Ep 5: 조직의 저항 -->
+        <a class="ep-btn" href="episode5/index.html" style="background-image: url('episode5/01.png')">Episode 5<br><span
+            style="font-size:0.8em">조직의 저항</span></a>
+        
+        <!-- Ep 6: 첫 성과 -->
+        <a class="ep-btn" href="episode6/index.html" style="background-image: url('episode6/01.png')">Episode 6<br><span
+            style="font-size:0.8em">첫 성과</span></a>
+        
+        <!-- Ep 7: 역풍 -->
+        <a class="ep-btn" href="episode7/index.html" style="background-image: url('episode7/01.png')">Episode 7<br><span
+            style="font-size:0.8em">역풍</span></a>
+        
+        <!-- Ep 8: 반격 -->
+        <a class="ep-btn" href="episode8/index.html" style="background-image: url('episode8/01.png')">Episode 8<br><span
+            style="font-size:0.8em">반격</span></a>
+        
+        <!-- Ep 9: 최종 대결 -->
+        <a class="ep-btn" href="episode9/index.html" style="background-image: url('episode9/01.png')">Episode 9<br><span
+            style="font-size:0.8em">최종 대결</span></a>
+        
+        <!-- Ep 10: 확산 -->
+        <a class="ep-btn" href="episode10/index.html" style="background-image: url('episode10/01.png')">Episode 10<br><span
+            style="font-size:0.8em">확산</span></a>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    © Gu-san District AI Revolution Project S2
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Simple random video background logic if multiple assets exist
+      const videos = [
+        'episode1/06.mp4' 
+      ];
+
+      const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+      const videoElement = document.querySelector('.video-bg video');
+      if (videoElement) {
+        const sourceElement = videoElement.querySelector('source');
+        if (sourceElement) {
+          // sourceElement.src = randomVideo; // Uncomment if multiple
+          videoElement.load();
+          videoElement.play().catch(e => console.log("Auto-play prevented:", e));
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
