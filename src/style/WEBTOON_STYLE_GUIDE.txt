@@ -1,0 +1,96 @@
+# WEBTOON & WEB NOVEL ART DIRECTION KNOWLEDGE BASE (EXPANDED v2.0)
+
+## 1. AI Model Tech Specs
+### Nano Banana (Gemini 2.5 Flash Image)
+- **Core Capability:** High-fidelity text rendering, character consistency via 14+ reference images, in-painting logic.
+- **Key Workflow:** 1. Generate "Master Character Sheet". 2. Use master sheet as "Anchor". 3. Natural language editing.
+
+### Veo 3.1 (Video Generation)
+- **Cinematography Keywords:**
+  - *Truck/Tracking:* Follow character.
+  - *Dolly In/Out:* Emotional focus.
+  - *Pan/Whip Pan:* Reveal environment or transition.
+  - *Rack Focus:* Shift focus foreground/background.
+  - *Crash Zoom:* Sudden impact action.
+
+---
+
+## 2. Graphic Style Taxonomy (15 Styles / 6 Classes)
+
+### Class A: The Gloss (Romance Fantasy & High-Teen)
+*Target: Female demographic, Visual satisfaction, "Eye Candy"*
+
+* **Style A-1: The Royal (Ref: The Remarried Empress)**
+    * **Visual DNA:** Rococo architecture, Jewel eyes (3-4 layers), 3D backgrounds with bloom filter, pastel & gold palette.
+    * **Keywords:** `Romance fantasy, intricate rococo costume, jewel eyes, bloom effect, sparkling particles, soft diffused lighting, 3D background blending`.
+* **Style A-2: The Idol (Ref: True Beauty)**
+    * **Visual DNA:** K-pop aesthetic, Glass skin rendering, glossy lips, studio lighting, lens flare, 9-head body proportion.
+    * **Keywords:** `K-drama style, fashion illustration, glass skin, glossy lips, studio lighting, bokeh, semi-realistic, detailed makeup`.
+* **Style A-3: The Cinematic RoFan (Ref: SubZero)**
+    * **Visual DNA:** Blue/Silver palette, cinematic lighting, 3D creature (dragon) integration, romantic tension.
+    * **Keywords:** `Cinematic lighting, fantasy romance, blue and silver palette, ethereal atmosphere, 3D monster integration`.
+
+### Class B: The Dynamic (Action, Hunter & Blockbuster)
+*Target: Male demographic, Gamers, Dopamine seekers*
+
+* **Style B-1: The Leveling (Ref: Solo Leveling)**
+    * **Visual DNA:** "Blacker than Black" shadows, Neon Blue/Purple aura, Speed lines, Impact frames, Particle effects.
+    * **Keywords:** `Korean action manhwa, glowing blue aura, high contrast, rim light, speed lines, impact frame, dark atmosphere, sharp lineart`.
+* **Style B-2: The Epic (Ref: Tower of God - S3)**
+    * **Visual DNA:** Massive scale, energy beams (Shinsu), vibrant particles, digital painting style.
+    * **Keywords:** `Epic fantasy, massive scale, energy beams, vibrant particle effects, digital painting, atmospheric depth`.
+
+### Class C: The Painterly (Oriental, Murim & Traditional)
+*Target: Martial arts fans, Traditional aesthetics*
+
+* **Style C-1: The Ink Flow (Ref: Return of the Blossoming Blade)**
+    * **Visual DNA:** Calligraphy brush strokes (varying thickness), Ink wash effects, Plum blossom pink accents.
+    * **Keywords:** `Murim manhwa, ink wash painting style, calligraphy brush strokes, dynamic action, plum blossom petals, oriental aesthetic`.
+* **Style C-2: The Landscape (Ref: Gosu)**
+    * **Visual DNA:** Detailed landscape backgrounds vs Simplified characters, atmospheric destruction, earthy tones.
+    * **Keywords:** `Hyper-detailed landscape, environmental destruction, atmospheric perspective, ink wash vibe, vast nature`.
+
+### Class D: The Iconic (Graphic, Pop-Art & Noir)
+*Target: Gen Z, Western audience, Stylized preference*
+
+* **Style D-1: The Modern Myth (Ref: Lore Olympus)**
+    * **Visual DNA:** Vector art, Gouache texture, Monochromatic skin (Pink/Blue), Flat design, Bioluminescence.
+    * **Keywords:** `Vector art, gouache texture overlay, flat colors, monochromatic skin, geometric shapes, modern graphic novel`.
+* **Style D-2: The Pop Rom-Com (Ref: Maybe Meant to Be)**
+    * **Visual DNA:** Vibrant primary colors (Yellow/Cyan), Halftone patterns, Cel shading, Comic symbols (sweat drops).
+    * **Keywords:** `Pop art aesthetic, vibrant colors, cel shading, halftone pattern background, clean digital lines, energetic`.
+* **Style D-3: The Street Noir (Ref: Hellper)**
+    * **Visual DNA:** Limited Palette (Black/White/Red), Graffiti/Tattoo lines, Bold solid shadows, Exaggerated anatomy.
+    * **Keywords:** `Graphic noir, graffiti art style, black white and red palette, bold ink lines, solid shadows, street art vibe`.
+* **Style D-4: The Western Daily (Ref: Batman: Wayne Family Adventures)**
+    * **Visual DNA:** American comic style, Clean lines, Bright daytime lighting, Expressive faces.
+    * **Keywords:** `Western comic style, clean lineart, wholesome atmosphere, bright lighting, expressive character acting`.
+
+### Class E: The Atmospheric (Horror, Thriller & Uncanny)
+*Target: Thriller fans, Niche aesthetic*
+
+* **Style E-1: The Gritty (Ref: Sweet Home)**
+    * **Visual DNA:** Low-key lighting, Desaturated colors, Grime/Dirt textures, Body horror, Film grain.
+    * **Keywords:** `Gritty horror, low-key lighting, desaturated palette, grime texture, film grain, claustrophobic, psychological horror`.
+* **Style E-2: The Dissonance (Ref: Everything is Fine)**
+    * **Visual DNA:** Uncanny valley, Clinical flat lighting, Mascot heads on realistic bodies, Suburban setting.
+    * **Keywords:** `Uncanny valley, vector art, flat lighting, clinical atmosphere, suburban horror, mascot head`.
+
+### Class F: The Nostalgic (Drama, School & Indie)
+*Target: Emotional depth, Slice of Life*
+
+* **Style F-1: The Soft Focus (Ref: ReLIFE)**
+    * **Visual DNA:** Soft gradient shading, Anime school style, "Nostalgia" filter, Blurred backgrounds.
+    * **Keywords:** `Anime school life, soft gradient, nostalgic atmosphere, warm lighting, emotional storytelling, bokeh`.
+* **Style F-2: The Sketchbook (Ref: Heartstopper)**
+    * **Visual DNA:** Pencil sketch texture, Loose lines, Hand-drawn feel, Floating leaves/elements.
+    * **Keywords:** `Pencil sketch style, hand-drawn aesthetic, loose lines, pastel accents, cozy atmosphere, indie comic`.
+
+---
+
+## 3. Practical Prompt Construction Guide (Modular)
+
+**Formula:** `[Style Class Keyword] + [Subject/Character] + [Action] + [Lighting/Environment] + [Tech Specs]`
+
+**Example (Class B-1: Solo Leveling Style):**
+> `(Masterpiece), Korean action manhwa style, [Character] holding glowing daggers, dynamic jumping pose, dark dungeon background, floating debris, rim lighting, bioluminescent blue glow, high contrast, speed lines, sharp focus, 8k.`

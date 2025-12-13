@@ -8,7 +8,8 @@
     max-width: 650px;
     margin: 0 auto;
     padding: 30px 20px;
-    padding-top: 90px; /* Space for fixed header */
+    padding-top: 90px;
+    /* Space for fixed header */
 }
 
 body {
@@ -19,15 +20,29 @@ body {
 }
 
 /* --- TYPOGRAPHY --- */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
     line-height: 1.5;
     margin-top: 40px;
 }
 
-.chapter-title h1 { font-size: 1.8em; color: #007bff; }
-.chapter-title h2 { font-size: 1.4em; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
-h3 { font-size: 1.2em; color: #555; }
+.chapter-title h1 {
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+.chapter-title h2 {
+    font-size: 1.4em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #555;
+}
 
 p {
     margin-bottom: 1.5em;
@@ -43,14 +58,13 @@ p {
 
 .scene-video,
 .scene-img,
-.scene-image { /* Added scene-image for compatibility */
+.scene-image {
+    /* Added scene-image for compatibility */
     width: 100%;
     height: auto;
     display: block;
     border-radius: 6px;
     background: #000;
-    object-fit: cover;
-    max-height: 600px;
 }
 
 .scene-media picture,
@@ -115,7 +129,8 @@ table {
     font-size: 0.9em;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
@@ -145,9 +160,16 @@ th {
     .episode-wrapper {
         padding: 20px 15px;
     }
+
     .chapter-title h1 {
         font-size: 1.6em;
     }
-    .scene-media { padding: 0 12px; }
-    .caption { padding: 0 12px; }
+
+    .scene-media {
+        padding: 0 12px;
+    }
+
+    .caption {
+        padding: 0 12px;
+    }
 }
