@@ -95,7 +95,7 @@
       if (videoElement) {
         const sourceElement = videoElement.querySelector('source');
         if (sourceElement) {
-          // sourceElement.src = randomVideo; // Uncomment if multiple
+          sourceElement.src = randomVideo; // Uncomment if multiple
           videoElement.load();
           videoElement.play().catch(e => console.log("Auto-play prevented:", e));
         }
